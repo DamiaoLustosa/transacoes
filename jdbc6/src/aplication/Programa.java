@@ -26,10 +26,10 @@ public class Programa {
 			int rows1 = st.executeUpdate("UPDATE seller SET baseSalary = 2090 WHERE DepartmentId = 1");
 			
 			//Criando um erro falso para a linha 2 (rows2) não ser atualizada
-			int x = 1;
-			if (x<2) {
-				throw new SQLException("Erro falso");
-			}
+			//int x = 1;
+			//if (x<2) {
+				//throw new SQLException("Erro falso");
+			//}
 			
 			int rows2 = st.executeUpdate("UPDATE seller SET baseSalary = 3090 WHERE DepartmentId = 2");
 			
